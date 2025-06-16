@@ -138,7 +138,7 @@
           {todos.length === 0 && <div className='text-violet-500 text-2xl m-3 font-medium'>No todos to display</div>}
           {todos
             .filter(item => showfinished || !item.isCompleted)
-            .map((item) => (
+            .map((item) => ( 
               <div
                 key={item.id}
                 className="bg-white p-3  rounded flex justify-between items-center mb-3 shadow"
